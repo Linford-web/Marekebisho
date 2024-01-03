@@ -1,0 +1,294 @@
+﻿body {
+    //background-color: rgb(132,86,254);
+    //background-color: rgb(26,140,216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.header {
+    margin-top: 0px;
+    text-align: center;
+    height: 105px;
+    background-color:whitesmoke;
+    //background-color: rgb(250,249,255);
+    color: black;
+}
+.article {
+  
+    margin: 0px; 
+    padding: 0px; 
+    color: black;
+    background-color: lightskyblue;
+    
+}
+
+.image_2{
+    margin-top: 6px;
+    float: left; 
+    border-radius: 50%; 
+}
+
+.nav_header {
+    float: right;
+    margin-top: 44px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+    .header h2 {
+        float: left;
+        font-size: 28px;
+        color: rgb(26,140,216);
+        margin-top: 38px;
+        padding-left: 1%;
+    width: 1035px;
+    height: 0px;
+}
+
+
+
+li {
+    
+    display: inline;
+    margin-right: 22px;
+}
+
+ul li a, footer ul a {
+    text-decoration: none; /* no underline */
+    font-size: 18px;
+    color:beige;
+}
+
+
+
+
+.button_login{
+    // border: 1px solid rgb(231,18,88);
+    border: 1px solid rgb(26,140,216);
+    border-radius: 15px 15px;
+    background-color: cornflowerblue;
+    padding: 12px 25px;
+    font-size: 19px;
+    color: beige;
+    text-align: center;
+    font-family: 'Candara';
+}
+
+
+
+
+.dashboard_left{
+    width: 40%;
+    float: left; 
+    padding: 10px 20px 10px 20px; 
+ 
+   
+    
+}
+
+.dashboard_right {
+    width: 45%;
+    float: right; 
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+.panel {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 3px 30px 3px 5px;
+    background-color:cornflowerblue;
+    padding: 5px;
+    
+   
+}
+
+
+
+.home_main {
+    
+    background-color: cornflowerblue;
+    padding: 0px;
+    position: relative;
+}
+
+
+.overlay {
+    
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    font-size: 58px;
+    color: cornflowerblue;  
+}
+
+.home-sentence {
+    font-size: 20px;
+}
+
+.image_1 {
+    filter: opacity(0.2) drop-shadow(0 0 0 rgb(81,88,120));
+}
+.view{
+    background-color:orangered; 
+}
+
+
+
+.sidenav {
+    width: 170px;
+    height: 90vh;
+    background-color:rgb(26,140,216);
+    position: fixed;
+    float: left;
+    font-family: 'Candara';
+}
+
+.nav {
+    position: relative;
+    margin: 0 15%;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-family: 'Candara';
+}
+
+
+    /* The navigation menu links */
+.sidenav .a {
+    text-decoration: none;
+    font-size: 18px;
+    color: lightslategrey;
+    display: block;
+    height: 80px;
+    line-height: 5em;
+    border: none;
+    background: none;
+    font-family: 'Candara';
+}
+
+.mainnav {
+    background-color:rgb(250,249,255);
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 170px);
+   float: right; 
+   text-align:center; 
+}
+
+.no_prisoners_1 {
+    background: linear-gradient(#929292, #b2b2b2);
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.no_prisoners_2 {
+    background: linear-gradient(#929292, #b2b2b2);
+    text-align: center;
+    padding: 15px;
+    color: lightgreen;
+    font-size: 18px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.button_add {
+    background-color: rgb(132,86,254);
+    padding: 12px 25px;
+    border-radius: 15px 15px;
+    border: none;
+    font-size: 15px;
+    color: dimgray;
+    margin-right: 30px;
+    width: 180px; 
+}
+
+
+.admin_dash{
+    padding-top: 50px; 
+}
+
+.dash .left {
+    float: left;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.admin_dash .left {
+    float: left;
+    text-align: left;
+    margin-left: 25px;
+
+}
+
+.admin_dash .left h3{
+    color: cornflowerblue; 
+}
+
+.admin_dash .right {
+    margin-top: 15px; 
+    float: right;
+}
+
+
+.count {
+    margin: 20px 0px;
+    margin-top: 50px; 
+    margin-left: 25px;
+}
+
+.button_2{
+    opacity: 0; 
+}
+
+.login{
+
+    margin-left: 25%; 
+    background-color: lightskyblue;
+    width: 40%; 
+    padding: 5%; 
+    text-align: center; 
+  
+}
+
+.go_back {
+    float: right;
+    
+}
+
+
+.footer {
+    padding: 10px;
+    height: 0px;
+    color: black;
+  
+    text-align: center;
+}
+
+.label{
+    width: 50%; 
+}
+
+.about{
+    
+    width: 80%;
+    margin-right: 8%; 
+    padding: 30px; 
+}
+
+.right_grid{
+    float: right; 
+}
+
